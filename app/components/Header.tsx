@@ -1,6 +1,5 @@
 import Image from "next/image";
-import LogoSAAEremovebg from "../../public/LogoSAAEremovebg.png";
-import capa from "../../public/capa.png";
+import Logowbg from "../../public/Logowbg.png";
 import atendimento from "../../public/atendimento.jpeg";
 
 const Header: React.FC = () => {
@@ -9,7 +8,7 @@ const Header: React.FC = () => {
       <div className="bg-bluebanner text-white shadow-md">
         <div className="container mx-8 p-4 flex justify-between items-center">
           <Image
-            src={LogoSAAEremovebg}
+            src={Logowbg}
             alt="Logo SAAE"
             height={200}
             width={200}
