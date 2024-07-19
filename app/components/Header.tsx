@@ -5,7 +5,7 @@ import Logowbg from '../../public/Logowbg.png'
 import atendimento from '../../public/atendimento.jpeg'
 import { useState } from 'react'
 import React from 'react'
-import comunicado_banner from '../../public/comunicado_banner.jpeg'
+import comunicado_banner from '../../public/comunicado_banner.png'
 
 const Header: React.FC = () => {
   const [showModal, setShowModal] = useState(false)
